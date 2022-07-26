@@ -1,0 +1,31 @@
+﻿@model IEnumerable<VideoGameStore_Excercise.Models.Entities.GameTitle>
+@{
+    ViewData["Title"] = "Video Game List";
+    // Layout = "~/Views/Shared";
+}
+
+<div>
+    @if (Model.Count() > 0)
+    {
+        <table class="table table--sttriped border">
+            <tr>
+                <th>Videogame Title</th>
+                <th></th>
+            </tr>
+            @foreach (var videogame in Model)
+            {
+                <tr>
+                    <td>@videogame.Name</td>
+                    <td>
+                        <a class="btn btn-primary text-white" asp-action="Edit" id=" @videogame.Id">Edit</a>
+                        <a class="btn btn-danger text-white" asp-action="Delete" id=" @videogame.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <p>No videogames to display</p>
+    }
+</div>
