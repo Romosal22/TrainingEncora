@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ghu3f5UKzrdFPJ6qoaZDY4/yjqjWLi8MCLHOYoq2Z1kxLWjecRmZ3+EmBkoU+rY0QBnYk+hNOWK3+FjTdSzL3A==",
+  "dgSpecHash": "JsbMhy1HyoOcAyrGT0vnuVQzlY84PeAMrvRaOP6ncYHU/slZKuu9jQ/PcxeqnT+qjo1sF1ADTEftscU41PEGGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\VideoGameStore_Excercise\\VideoGameStore_Excercise\\VideoGameStore_Excercise.csproj",
+  "projectFilePath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\TrainingEncora\\VideoGameStore_Excercise\\VideoGameStore_Excercise\\VideoGameStore_Excercise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodolfo.moreno\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rodolfo.moreno\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",

@@ -33,10 +33,13 @@ namespace VideoGameStore_Excercise.Controllers
 
         // GET api/<VideoGameController>/5
         [HttpGet("{id}")]
-        public GameTitle Get(int id)
+        public ActionResult<GameTitle> Get(int id)
         {
             var gameTitle = _context.GameTitles.FirstOrDefault(x => x.Id == id);
-
+            if (gameTitle == null)
+            {
+                return NotFound();
+            }
             return gameTitle;
         }
 
